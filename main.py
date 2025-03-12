@@ -15,6 +15,8 @@ if __name__ == '__main__':
     data_skin = data[data['f3'] == 1]
     data_non_skin = data[data['f3'] == 2]
     
+    print('Skin:', data_skin[:20])
+    print('Non Skin:', data_non_skin[:20])
     
     # Строим графики
     plt.figure(1)
